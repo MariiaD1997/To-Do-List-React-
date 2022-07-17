@@ -1,0 +1,70 @@
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form button {
+  color: #64403e;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form button:hover {
+  background: #64403e;
+  color: white;
+}
+form input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  font-size: 1rem;
+}
+
+::placeholder {
+  color: #64403e;
+}
+
+/*CUSTOM SELECTOR */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background-image: none;
+}
+
+/* Custom Select */
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+select {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 10rem;
+  max-width: 100%;
+  color: #64403e;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
